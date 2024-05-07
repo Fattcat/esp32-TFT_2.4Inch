@@ -21,7 +21,7 @@ void setup() {
 void loop() {
   tft.setCursor(0, 0);
   tft.setRotation(0);
-  tft.fillScreen(ST77XX_BLACK);
+  tft.fillScreen(ST77XX_WHITE);
   tft.setTextColor(ST77XX_ORANGE);
 
   tft.setCursor(0,0);
